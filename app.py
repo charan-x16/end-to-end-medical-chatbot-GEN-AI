@@ -12,7 +12,7 @@ import os
 
 load_dotenv()
 PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 
 
 embeddings = download_huggingface_embeddings()
